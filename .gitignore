@@ -1,0 +1,67 @@
+# --- Deny-all by default ---
+*
+
+# --- keep repo control files visible ---
+!.gitignore
+!README.md
+!LICENSE
+!.github/
+
+# --- whitelist all directories at every depth
+!**/
+
+# --- whitelist public course content ---
+!index.html
+!Emory_small.png
+!syllabus.pdf
+!Homework 1/Homework 1.pdf
+!Homework 1/Homework 1 data.xlsx
+!Homework 2/Homework 2.pdf
+!Homework 2/Homework 2 data.xlsx
+!Homework 3/Homework 3.pdf
+!Homework 3/Homework 3 data.xlsx
+!Homework 4/Homework 4.pdf
+!Homework 4/Homework 4 data.xlsx
+!Homework 5/Homework 5.pdf
+!Homework 5/Homework 5 data.xlsx
+!Exam 1/Fall 2019 midterm 1 questions - with answers.pdf
+!Exam 1/Fall 2020 quizzes.pdf
+!Exam 1/Fall 2021 midterm 1 - with answers.pdf
+!Exam 1/Fall 2022 midterm 1 - with answers.pdf
+!Exam 1/Fall 2023 midterm 1 - with answers.pdf
+!Exam 1/Fall 2024 midterm 1 - with answers.pdf
+!Exam 1/Textbook review problems.pdf
+!Exam 1/Fall 2024 midterm 1 - solution.pdf
+!Exam 2/2019 and 2020 questions from midterm 2.pdf
+!Exam 2/Fall 2022 midterm 2 - with answers.pdf
+!Exam 2/Fall 2023 midterm 2 - with answers.pdf
+!Exam 2/textbook review problems - 13th edition.pdf
+!Exam 2/Fall 2024 midterm 2 - with answers.pdf
+!Exam 3/2019 and 2020 questions on final exam topics.pdf
+!Exam 3/Fall 2022 final exam - with answers.pdf
+!Exam 3/Fall 2023 final exam - with answers.pdf
+!Exam 3/Fall 2024 final exam - with answers.pdf
+!Module 1/Week 1 - Asset classes/Asset classes.ipynb
+!Module 1/Week 1 - Asset classes/Asset classes - slides.pdf
+!Module 1/Week 2 - Investment returns, portfolios, and indexes/Investment returns, portfolios, and indexes.ipynb
+!Module 1/Week 2 - Investment returns, portfolios, and indexes/Investment returns, portfolios, and indexes - slides.pdf
+!Module 1/Week 2 - Investment returns, portfolios, and indexes/Example from textbook p48 - solved.xlsx
+!Module 1/Week 2 - Investment returns, portfolios, and indexes/Example with AMGN and GILD - solved.xlsx
+!Module 1/Week 3 - Fund structures/Funds.ipynb
+!Module 1/Week 3 - Fund structures/Funds - slides.pdf
+!Module 2/Week 6 - Diversification and portfolio optimization/Diversification and portfolio optimization.ipynb
+!Module 2/Week 6 - Diversification and portfolio optimization/Diversification and portfolio optimization.ipynb
+!Module 2/Week 6 - Diversification and portfolio optimization/Diversification and portfolio optimization - slides.pdf
+!Module 2/Week 6 - Diversification and portfolio optimization/Homework 1 example.xlsx
+!Module 2/Week 8 - CAPM and investment styles/CAPM and investment styles.ipynb
+!Module 2/Week 8 - CAPM and investment styles/CAPM and investment styles - slides.pdf
+!Module 3/Week 11 - Short sales and dollar-neutral strategies/Short sales and dollar-neutral strategies.ipynb
+!Module 3/Week 11 - Short sales and dollar-neutral strategies/Short sales and dollar-neutral strategies - slides.pdf
+!Module 3/Week 11 - Short sales and dollar-neutral strategies/Example with value and growth stocks.xlsx
+!Module 3/Week 12 - Factor models/Factor models.ipynb
+!Module 3/Week 12 - Factor models/Factor models - slides.pdf
+!Module 3/Week 12 - Factor models/SP500EW.xlsx
+!Module 3/Week 13 - The profitability factor/Profitability.ipynb
+!Module 3/Week 13 - The profitability factor/Profitability - slides.pdf
+!Module 3/Week 13 - The profitability factor/Buffetts Alpha - paper.pdf
+!Module 3/Week 13 - The profitability factor/Profitability.xlsx
