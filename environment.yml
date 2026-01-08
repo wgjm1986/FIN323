@@ -1,0 +1,14 @@
+name: FIN323
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pandas
+  - fredapi
+  - wrds
+  - notebook
+  - matplotlib
+  - python-dotenv
+  - statsmodels
+  - xmltodict
+prefix: /home/william/miniforge3/envs/FIN323
