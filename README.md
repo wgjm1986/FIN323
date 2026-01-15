@@ -1,45 +1,40 @@
-# FIN323 Course Repository
+# Investments (FIN 323): Course repository
+### [William Mann](https://sites.google.com/site/williamgilesmann/), Goizueta Business School, Emory University
 
 ## Overview
 
-This is a README file for the Github repository for the course
-FIN 323 (Investments) at Emory University taught by [William Mann](https://sites.google.com/site/williamgilesmann/).
-(At the moment, it is also the landing page for the course on Github Pages, because I haven't yet built out a proper landing page, but that will change sometime soon.)
+This is a landing page and documentation file for the [course Github repository](https://github.com/wgjm1986/FIN323) that I use when I teach FIN323.
+For information about the course, including topics, schedule, assignments, and grading, please see the [syllabus](https://wgjm1986.github.io/FIN323/syllabus.pdf), or contact me directly.
 
-This repository contains the files used when I teach the course.
-It mostly consists of slides, examples in Excel, and Python notebooks. During the semester I also add the homework assignments and solutions as we reach them.
+The purpose of this repo is just to host our course files (slides, Excel examples, homework assignments and solutions, and optional Python code).
+I embed links to all these files on our Canvas page, so students are **not** required to deal with this repo directly. 
+It's fine to ignore this page and download the files directly from Canvas throughout the semester.
 
-I use this repo to host the files and then I embed links to them in Canvas. If you are enrolled in the course, you are **not** required to deal with this repo directly. It's fine to download the files directly from the links on Canvas and ignore this page.
-
-However, it can actually be much more convenient to work directly with the repo, especially if you want to run the code on your own computer. The rest of this README explains how to do it. If you already have experience with git then this will be straightforward. If you haven't used it before, I strongly recommend to give it a try, 
+However, if you learn how to work directly with this repo, you may actually find it to be more convenient than going through Canvas.
+This is especially true if you want to run the code on your own computer.
+The rest of this README explains how to accomplish this, if you are interested.
+If you already have experience with `git`, `conda`, and `jupyter` then this process will be straightforward.
+Even if not, I strongly recommend to give it a try.
 
 ---
 
 To run the code on your own computer, you will need to:
 
 1. Clone or download the repo to your own computer.
-2. Create a Conda environment from `environment.yml`
-3. Create a personal `.env` file with your credentials
+2. Create a Conda environment from `environment.yml`.
+3. Create a personal `.env` file with your credentials.
+4. Launch a jupyter notebook server.
+
+Follow the steps below in order.
+Some of these steps will require you enter commands into a terminal window.
+On Mac, this is an app called Terminal.
+On Windows, use Command Prompt or PowerShell.
 
 ---
 
-## Prerequisites
+## 1. Download or clone this repository
 
-You must have **Conda** installed. There are several different versions of it. The most common are Miniconda or Anaconda, both of which are fine.
-
-You will also need a terminal:
-
-- macOS / Linux: Terminal
-- Windows: Anaconda Prompt or PowerShell
-
-However, you do not need much experience with either Conda or terminal commands. Just follow the steps below.
-
----
-
-## 1. Download or Clone This Repository
-
-
-If you know how to use Git:
+If you know how to use git:
 
     git clone https://github.com/wgjm1986/FIN323
     cd FIN323
@@ -54,7 +49,7 @@ All remaining commands below should be run **from inside the repository director
 
 ---
 
-## 2. Create the Conda Environment
+## 2. Create the Conda environment
 
 ### Background
 
@@ -74,7 +69,12 @@ the codebase includes a description of the system on which it should run, and th
 
 ### Steps to follow
 
-Make sure you are in the repo directory `FIN323`. You will see a file there called `environment.yml`.
+Install Conda if you don't already have it.
+Several different versions exist.
+The most common are Miniconda or Anaconda, both of which are fine.
+
+Next, open a terminal and navigate to the repo directory `FIN323`.
+You will see a file there called `environment.yml`.
 Use this file to create your environment by running:
 
     conda env create -f environment.yml
@@ -95,7 +95,7 @@ This step makes it easy to ensure your notebook is using the correct Python envi
 
 ---
 
-## 3. Set Up Your Credentials (`.env` file)
+## 3. Set up your credentials (`.env` file)
 
 ### Background
 
@@ -110,7 +110,7 @@ However, to keep everyone on the same page, a standard approach is to include in
 
 The most common convention is that the configuration file is called `.env` (notice the filename begins with a `.` which is a common way of labeling a system or configuration file). The template to help create the file is called `.env.example`. You use this template to create your own `.env` file, and then the code will look for that file when it runs to pull your user-specific information. The steps below explain how to set up your `.env` file correctly.
 
-### Step 3.1: Create your `.env` file
+### Steps to follow
 
 In the repo, you will see a file called:
 
@@ -124,15 +124,11 @@ macOS / Linux:
 
     cp .env.example .env
 
-Windows (PowerShell):
+Windows:
 
     copy .env.example .env
 
----
-
-### Step 3.2: Edit `.env`
-
-Open `.env` in a text editor and replace the placeholder values with your own information.
+Next, open `.env` in any text editor, and replace the placeholder values with your own information.
 
 The file looks like this:
 
