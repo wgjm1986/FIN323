@@ -2,10 +2,12 @@
 
 ## Overview
 
-This is a README file for the Github repository for the course FIN 323 (Investments) at Emory University taught by [William Mann](https://sites.google.com/site/williamgilesmann/).
+This is a README file for the Github repository for the course
+FIN 323 (Investments) at Emory University taught by [William Mann](https://sites.google.com/site/williamgilesmann/).
 (At the moment, it is also the landing page for the course on Github Pages, because I haven't yet built out a proper landing page, but that will change sometime soon.)
 
-This repository contains the files used when I teach the course.  It mostly consists of slides, examples in Excel, and Python notebooks. During the semester I also add the homework assignments and solutions as we reach them.
+This repository contains the files used when I teach the course.
+It mostly consists of slides, examples in Excel, and Python notebooks. During the semester I also add the homework assignments and solutions as we reach them.
 
 I use this repo to host the files and then I embed links to them in Canvas. If you are enrolled in the course, you are **not** required to deal with this repo directly. It's fine to download the files directly from the links on Canvas and ignore this page.
 
