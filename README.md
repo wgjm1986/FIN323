@@ -12,7 +12,7 @@ It's fine to ignore this page and download the files directly from Canvas throug
 
 However, if you learn how to work directly with this repo, you may actually find it to be more convenient than going through Canvas.
 This is especially true if you want to run the code on your own computer.
-The rest of this README explains how to accomplish this, if you are interested.
+The rest of this page explains how to accomplish this, if you are interested.
 If you already have experience with `git`, `conda`, and `jupyter` then this process will be straightforward.
 Even if not, I strongly recommend to give it a try.
 
@@ -206,7 +206,7 @@ So, as a matter of standard security practice,
 
 For this reason, any use of Binder with this repository should be limited to code that does not require downloading protected data. 
 Any code that requires credentials should be run locally using a .env file as described above.
-This README does not include instructions on using Binder, to avoid encouraging credential use in an environment that is not designed for it.
+This page does not include instructions on using Binder, to avoid encouraging credential use in an environment that is not designed for it.
 
 ---
 
