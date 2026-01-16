@@ -97,11 +97,7 @@ Use this file to create your environment by running:
 
     conda env create -f environment.yml
 
-This will create a Conda environment named:
-
-    FIN323
-
-Once the environment is created, activate it:
+This will create a Conda environment named `FIN323`. Once the environment is created, activate it:
 
     conda activate FIN323
 
