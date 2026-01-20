@@ -12,6 +12,7 @@
 !LICENSE
 !LICENSE-CODE
 !.github/
+!_config.yml
 
 # --- whitelist config files ---
 !index.html
