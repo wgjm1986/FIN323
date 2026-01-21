@@ -1,11 +1,11 @@
-#### [William Mann](https://sites.google.com/site/williamgilesmann/), Goizueta Business School, Emory University
+#### [William Mann](https://wgmann.github.io), Goizueta Business School, Emory University
 
 ---
 
 ## Overview
 
-This is a landing page and documentation file for the [course Github repository](https://github.com/wgjm1986/FIN323) that I use when I teach FIN323.
-For information about the course, including topics, schedule, assignments, and grading, please see the [syllabus](https://wgjm1986.github.io/FIN323/syllabus.pdf), or contact me directly.
+This is a landing page and documentation file for the [course Github repository](https://github.com/wgmann/FIN323) that I use when I teach FIN323.
+For information about the course, including topics, schedule, assignments, and grading, please see the [syllabus](https://wgmann.github.io/FIN323/syllabus.pdf), or contact me directly.
 
 The purpose of this repo is just to host our course files (slides, Excel examples, homework assignments and solutions, and optional Python code).
 I embed links to all these files on our Canvas page, so students are **not** required to deal with this repo directly. 
@@ -54,7 +54,7 @@ On Windows, use Command Prompt or PowerShell.
 
 If you know how to use git:
 
-    git clone https://github.com/wgjm1986/FIN323
+    git clone https://github.com/wgmann/FIN323
     cd FIN323
 
 If you haven't installed or used git before, but want to try, see the [official webpage](https://git-scm.com) for resources to help you get started.
