@@ -5,7 +5,8 @@
 ## Overview
 
 This is a landing page and documentation file for the [course Github repository](https://github.com/wgmann/FIN323) that I use when I teach FIN323.
-For information about the course, including topics, schedule, assignments, and grading, please see the [syllabus](https://wgmann.github.io/FIN323/syllabus.pdf), or contact me directly.
+Eventually, it may become the main course page.
+For now, if you're looking for information about the course, including topics, schedule, assignments, and grading, please see the [syllabus](https://wgmann.github.io/FIN323/syllabus.pdf), or contact me directly.
 
 The purpose of this repo is just to host our course files (slides, Excel examples, homework assignments and solutions, and optional Python code).
 I embed links to all these files on our Canvas page, so students are **not** required to deal with this repo directly. 
